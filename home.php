@@ -7,7 +7,7 @@ if ( have_posts()) {
 
     ?>
     <article>
-        <header><?php the_title(); ?></header>
+        <header><h1><?php the_title(); ?></h1></header>
         <div class="content">
             <?php the_content(); ?>
         <div>
