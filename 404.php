@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php
 
-echo (" error 404");
+echo ("<h1> error 404 </h1>");
 
 ?>
 
