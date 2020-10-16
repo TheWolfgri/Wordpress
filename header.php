@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/site.css"></style>
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
+<link rel="stylesheet" href="wp-content/themes/Wordpress/css/normalize.css">
   </head>
     <body>
       <header style="background-color: brown;">
